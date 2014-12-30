@@ -19,7 +19,7 @@
     NSString *path=[NSString stringWithFormat:@"%@/TestDir",NSHomeDirectory()];
     NSMutableArray *arr=[[NSMutableArray alloc]init];
     [self getFolderFilePathByRoot:path AndArray:arr];
-    
+    NSLog(@"Fuck");
     [self getFolderFilePathByRoot:path AndArray:arr];
     NSLog(@"fileList:%@",arr);
     // Do any additional setup after loading the view, typically from a nib.
